@@ -43,6 +43,7 @@ var hierarchy =
     [ "ft::TxtCalibData", "classft_1_1_txt_calib_data.html", [
       [ "ft::TxtDeliveryPickupStationCalibData", "classft_1_1_txt_delivery_pickup_station_calib_data.html", null ],
       [ "ft::TxtHighBayWarehouseCalibData", "classft_1_1_txt_high_bay_warehouse_calib_data.html", null ],
+      [ "ft::TxtMultiProcessingStationCalibData", "classft_1_1_txt_multi_processing_station_calib_data.html", null ],
       [ "ft::TxtPanTiltUnitCalibData", "classft_1_1_txt_pan_tilt_unit_calib_data.html", null ],
       [ "ft::TxtSortingLineCalibData", "classft_1_1_txt_sorting_line_calib_data.html", null ],
       [ "ft::TxtVacuumGripperRobotCalibData", "classft_1_1_txt_vacuum_gripper_robot_calib_data.html", null ]
@@ -57,6 +58,7 @@ var hierarchy =
     [ "ft::TxtNfcData", "classft_1_1_txt_nfc_data.html", null ],
     [ "ft::TxtOrderState", "structft_1_1_txt_order_state.html", null ],
     [ "ft::TxtPanTiltUnitController", "classft_1_1_txt_pan_tilt_unit_controller.html", null ],
+    [ "ft::TxtSound", "classft_1_1_txt_sound.html", null ],
     [ "ft::TxtTransfer", "classft_1_1_txt_transfer.html", null ],
     [ "ft::TxtVacuumGripper", "classft_1_1_txt_vacuum_gripper.html", null ],
     [ "ft::TxtWorkpiece", "classft_1_1_txt_workpiece.html", null ]

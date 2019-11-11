@@ -48,6 +48,9 @@ var files =
     [ "TxtPanTiltUnit.h", "_txt_pan_tilt_unit_8h.html", "_txt_pan_tilt_unit_8h" ],
     [ "TxtSimulationModel.h", "_txt_simulation_model_8h.html", "_txt_simulation_model_8h" ],
     [ "TxtSortingLine.h", "_txt_sorting_line_8h.html", "_txt_sorting_line_8h" ],
+    [ "TxtSound.h", "_txt_sound_8h.html", [
+      [ "TxtSound", "classft_1_1_txt_sound.html", "classft_1_1_txt_sound" ]
+    ] ],
     [ "TxtVacuumGripper.h", "_txt_vacuum_gripper_8h.html", [
       [ "TxtVacuumGripper", "classft_1_1_txt_vacuum_gripper.html", "classft_1_1_txt_vacuum_gripper" ]
     ] ],

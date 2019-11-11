@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">TxtSmartFactoryLib
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">Smart Factory Library</div>
   </td>
@@ -184,6 +184,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classft_1_1_txt_multi_processing_station.html">TxtMultiProcessingStation</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classft_1_1_txt_multi_processing_station_calib_data.html">TxtMultiProcessingStationCalibData</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classft_1_1_txt_multi_processing_station_observer.html">TxtMultiProcessingStationObserver</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classft_1_1_txt_nfc_data.html">TxtNfcData</a></td></tr>
@@ -207,6 +209,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classft_1_1_txt_sorting_line_calib_data.html">TxtSortingLineCalibData</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classft_1_1_txt_sorting_line_observer.html">TxtSortingLineObserver</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classft_1_1_txt_sound.html">TxtSound</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classft_1_1_txt_transfer.html">TxtTransfer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -318,39 +322,41 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:a88bb8b41aa7e6a6d38447ae6f2caa4b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a368e4d4d861f00b9f4faa23c052bdb46"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceft.html#a368e4d4d861f00b9f4faa23c052bdb46">TxtMpoAckCode_t</a> { <a class="el" href="namespaceft.html#a368e4d4d861f00b9f4faa23c052bdb46a1073d397c3057816e391e3d4f85c9ec2">MPO_EXIT</a>, 
-<a class="el" href="namespaceft.html#a368e4d4d861f00b9f4faa23c052bdb46addc502e1e315a45e8392b73591898cc7">MPO_STARTED</a>, 
-<a class="el" href="namespaceft.html#a368e4d4d861f00b9f4faa23c052bdb46af64ed7072e8ab197018a3d046d322099">MPO_PRODUCED</a>
+<tr class="memitem:a368e4d4d861f00b9f4faa23c052bdb46"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceft.html#a368e4d4d861f00b9f4faa23c052bdb46">TxtMpoAckCode_t</a> { <a class="el" href="namespaceft.html#a368e4d4d861f00b9f4faa23c052bdb46a1073d397c3057816e391e3d4f85c9ec2">MPO_EXIT</a> =0, 
+<a class="el" href="namespaceft.html#a368e4d4d861f00b9f4faa23c052bdb46addc502e1e315a45e8392b73591898cc7">MPO_STARTED</a> =1, 
+<a class="el" href="namespaceft.html#a368e4d4d861f00b9f4faa23c052bdb46af64ed7072e8ab197018a3d046d322099">MPO_PRODUCED</a> =2
  }</td></tr>
 <tr class="separator:a368e4d4d861f00b9f4faa23c052bdb46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91a43ab1445a680e5e113eec631eb030"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceft.html#a91a43ab1445a680e5e113eec631eb030">TxtVgrDoCode_t</a> { <br />
-&#160;&#160;<a class="el" href="namespaceft.html#a91a43ab1445a680e5e113eec631eb030a0b82b0f994d3088fd2218720a86bef6e">VGR_EXIT</a>, 
-<a class="el" href="namespaceft.html#a91a43ab1445a680e5e113eec631eb030a30ebf545b142bee54996fbcba584450e">VGR_HBW_FETCHCONTAINER</a>, 
-<a class="el" href="namespaceft.html#a91a43ab1445a680e5e113eec631eb030a2b32a93c5dafed59d240aaa1086602d2">VGR_HBW_STORE_WP</a>, 
-<a class="el" href="namespaceft.html#a91a43ab1445a680e5e113eec631eb030a1a1555775b5f7dd22781e6755d0aa67a">VGR_HBW_FETCH_WP</a>, 
+&#160;&#160;<a class="el" href="namespaceft.html#a91a43ab1445a680e5e113eec631eb030a0b82b0f994d3088fd2218720a86bef6e">VGR_EXIT</a> =0, 
+<a class="el" href="namespaceft.html#a91a43ab1445a680e5e113eec631eb030a30ebf545b142bee54996fbcba584450e">VGR_HBW_FETCHCONTAINER</a> =1, 
+<a class="el" href="namespaceft.html#a91a43ab1445a680e5e113eec631eb030a2b32a93c5dafed59d240aaa1086602d2">VGR_HBW_STORE_WP</a> =2, 
+<a class="el" href="namespaceft.html#a91a43ab1445a680e5e113eec631eb030a1a1555775b5f7dd22781e6755d0aa67a">VGR_HBW_FETCH_WP</a> =3, 
 <br />
-&#160;&#160;<a class="el" href="namespaceft.html#a91a43ab1445a680e5e113eec631eb030a8940b8f6648d3a9c7d8fe182a0d97127">VGR_HBW_STORECONTAINER</a>, 
-<a class="el" href="namespaceft.html#a91a43ab1445a680e5e113eec631eb030affce488c63ce526d82b51896cba23f38">VGR_HBW_RESETSTORAGE</a>, 
-<a class="el" href="namespaceft.html#a91a43ab1445a680e5e113eec631eb030aafafa2be7003a43ebed177804bd9fc6d">VGR_HBW_CALIB</a>, 
-<a class="el" href="namespaceft.html#a91a43ab1445a680e5e113eec631eb030afcc52e05c0468a2fba747b5e680035e5">VGR_MPO_PRODUCE</a>, 
+&#160;&#160;<a class="el" href="namespaceft.html#a91a43ab1445a680e5e113eec631eb030a8940b8f6648d3a9c7d8fe182a0d97127">VGR_HBW_STORECONTAINER</a> =4, 
+<a class="el" href="namespaceft.html#a91a43ab1445a680e5e113eec631eb030affce488c63ce526d82b51896cba23f38">VGR_HBW_RESETSTORAGE</a> =5, 
+<a class="el" href="namespaceft.html#a91a43ab1445a680e5e113eec631eb030aafafa2be7003a43ebed177804bd9fc6d">VGR_HBW_CALIB</a> =6, 
+<a class="el" href="namespaceft.html#a91a43ab1445a680e5e113eec631eb030afcc52e05c0468a2fba747b5e680035e5">VGR_MPO_PRODUCE</a> =7, 
 <br />
-&#160;&#160;<a class="el" href="namespaceft.html#a91a43ab1445a680e5e113eec631eb030ad4fa0078d40d269a40e41ddb8df7cc4f">VGR_SLD_START</a>
+&#160;&#160;<a class="el" href="namespaceft.html#a91a43ab1445a680e5e113eec631eb030ad4fa0078d40d269a40e41ddb8df7cc4f">VGR_SLD_START</a> =8, 
+<a class="el" href="namespaceft.html#a91a43ab1445a680e5e113eec631eb030ac8976040ea89f6bb979f03fea71f88a0">VGR_SLD_CALIB</a> =9
 <br />
  }</td></tr>
 <tr class="separator:a91a43ab1445a680e5e113eec631eb030"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79f8dea1d67f613a9366fec07e43e2ff"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceft.html#a79f8dea1d67f613a9366fec07e43e2ff">TxtHbwAckCode_t</a> { <br />
-&#160;&#160;<a class="el" href="namespaceft.html#a79f8dea1d67f613a9366fec07e43e2ffaa61e89e6c388da5c7bb77fae6e250ff6">HBW_EXIT</a>, 
-<a class="el" href="namespaceft.html#a79f8dea1d67f613a9366fec07e43e2ffac6d6c7acf4c80187e470e57f449c66fc">HBW_FETCHED</a>, 
-<a class="el" href="namespaceft.html#a79f8dea1d67f613a9366fec07e43e2ffad9781ab64845f3cda63c77b1197fc1ab">HBW_STORED</a>, 
-<a class="el" href="namespaceft.html#a79f8dea1d67f613a9366fec07e43e2ffa803966c623a8101e1a7b8827f95075fe">HBW_CALIB_NAV</a>, 
+&#160;&#160;<a class="el" href="namespaceft.html#a79f8dea1d67f613a9366fec07e43e2ffaa61e89e6c388da5c7bb77fae6e250ff6">HBW_EXIT</a> =0, 
+<a class="el" href="namespaceft.html#a79f8dea1d67f613a9366fec07e43e2ffac6d6c7acf4c80187e470e57f449c66fc">HBW_FETCHED</a> =1, 
+<a class="el" href="namespaceft.html#a79f8dea1d67f613a9366fec07e43e2ffad9781ab64845f3cda63c77b1197fc1ab">HBW_STORED</a> =2, 
+<a class="el" href="namespaceft.html#a79f8dea1d67f613a9366fec07e43e2ffa803966c623a8101e1a7b8827f95075fe">HBW_CALIB_NAV</a> =3, 
 <br />
-&#160;&#160;<a class="el" href="namespaceft.html#a79f8dea1d67f613a9366fec07e43e2ffa583c7376acaa26adc5984b12f46c5398">HBW_CALIB_END</a>
+&#160;&#160;<a class="el" href="namespaceft.html#a79f8dea1d67f613a9366fec07e43e2ffa583c7376acaa26adc5984b12f46c5398">HBW_CALIB_END</a> =4
 <br />
  }</td></tr>
 <tr class="separator:a79f8dea1d67f613a9366fec07e43e2ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee05f9d6ddbc6bb6add8c06f3e4067a0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceft.html#aee05f9d6ddbc6bb6add8c06f3e4067a0">TxtSldAckCode_t</a> { <a class="el" href="namespaceft.html#aee05f9d6ddbc6bb6add8c06f3e4067a0a6f7087e75653616f98e145750b7d248e">SLD_EXIT</a>, 
-<a class="el" href="namespaceft.html#aee05f9d6ddbc6bb6add8c06f3e4067a0aaa18973eef725209bf87ec037e7f4ab4">SLD_STARTED</a>, 
-<a class="el" href="namespaceft.html#aee05f9d6ddbc6bb6add8c06f3e4067a0a37647049c5447cfc746ae8442b7a744d">SLD_SORTED</a>
+<tr class="memitem:aee05f9d6ddbc6bb6add8c06f3e4067a0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceft.html#aee05f9d6ddbc6bb6add8c06f3e4067a0">TxtSldAckCode_t</a> { <a class="el" href="namespaceft.html#aee05f9d6ddbc6bb6add8c06f3e4067a0a6f7087e75653616f98e145750b7d248e">SLD_EXIT</a> =0, 
+<a class="el" href="namespaceft.html#aee05f9d6ddbc6bb6add8c06f3e4067a0aaa18973eef725209bf87ec037e7f4ab4">SLD_STARTED</a> =1, 
+<a class="el" href="namespaceft.html#aee05f9d6ddbc6bb6add8c06f3e4067a0a37647049c5447cfc746ae8442b7a744d">SLD_SORTED</a> =2, 
+<a class="el" href="namespaceft.html#aee05f9d6ddbc6bb6add8c06f3e4067a0a209f1d108319cbf6d6568fbcfcb00aba">SLD_CALIB_END</a> =3
  }</td></tr>
 <tr class="separator:aee05f9d6ddbc6bb6add8c06f3e4067a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf50a06f05b9188eeec535212b261df0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceft.html#aaf50a06f05b9188eeec535212b261df0">TxtPanTiltUnit_status_t</a> { <br />
@@ -431,6 +437,10 @@ Functions</h2></td></tr>
 <tr class="separator:ae1f3840a401d735974abf141c1368903"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a685490d6cf4f8633991baa5fab28edf1"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceft.html#a685490d6cf4f8633991baa5fab28edf1">toString</a> (<a class="el" href="namespaceft.html#aee2adb2339d398fc7ed033c80030e685">TxtVgrCalibPos_t</a> v)</td></tr>
 <tr class="separator:a685490d6cf4f8633991baa5fab28edf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8d6c3ad09d3a9eb72cfd8b741e2c52c"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceft.html#aa8d6c3ad09d3a9eb72cfd8b741e2c52c">time_offset</a> ()</td></tr>
+<tr class="separator:aa8d6c3ad09d3a9eb72cfd8b741e2c52c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8551d8ec84b4c4298c97278547091c9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceft.html#ad8551d8ec84b4c4298c97278547091c9">trycheckTimestampTTL</a> (const std::string &amp;str, double diff_max=10.0)</td></tr>
+<tr class="separator:ad8551d8ec84b4c4298c97278547091c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a457fba32a74b3fc2648f00972731eb9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceft.html#a457fba32a74b3fc2648f00972731eb9d">gettimestampstr</a> (int64_t timestamp, char *sts)</td></tr>
 <tr class="separator:a457fba32a74b3fc2648f00972731eb9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18781bd02fd45e167bb80b55768e016a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceft.html#a18781bd02fd45e167bb80b55768e016a">gettimestr</a> (time_t rawtime, int ms, char *sts)</td></tr>
@@ -781,6 +791,8 @@ Variables</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="aee05f9d6ddbc6bb6add8c06f3e4067a0a37647049c5447cfc746ae8442b7a744d"></a>SLD_SORTED&#160;</td><td class="fielddoc">
 </td></tr>
+<tr><td class="fieldname"><a class="anchor" id="aee05f9d6ddbc6bb6add8c06f3e4067a0a209f1d108319cbf6d6568fbcfcb00aba"></a>SLD_CALIB_END&#160;</td><td class="fielddoc">
+</td></tr>
 </table>
 
 </div>
@@ -848,6 +860,8 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a91a43ab1445a680e5e113eec631eb030afcc52e05c0468a2fba747b5e680035e5"></a>VGR_MPO_PRODUCE&#160;</td><td class="fielddoc">
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a91a43ab1445a680e5e113eec631eb030ad4fa0078d40d269a40e41ddb8df7cc4f"></a>VGR_SLD_START&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a91a43ab1445a680e5e113eec631eb030ac8976040ea89f6bb979f03fea71f88a0"></a>VGR_SLD_CALIB&#160;</td><td class="fielddoc">
 </td></tr>
 </table>
 
@@ -1119,6 +1133,21 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aa8d6c3ad09d3a9eb72cfd8b741e2c52c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">long ft::time_offset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="ace7db8ca138a19dc062935cda6527317"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1307,6 +1336,32 @@ Variables</h2></td></tr>
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad8551d8ec84b4c4298c97278547091c9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ft::trycheckTimestampTTL </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>diff_max</em> = <code>10.0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>

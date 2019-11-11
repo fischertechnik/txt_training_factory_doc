@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">TxtSmartFactoryLib
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">Smart Factory Library</div>
   </td>
@@ -105,194 +105,101 @@ $(document).ready(function(){initNavTree('md_MqttInterface.html','');});
 <div class="title">MQTT Interface </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1>MQTT Remote (fischertechnik Cloud)</h1>
+<div class="textblock"><table class="doxtable">
+<tr>
+<th align="right">abbreviation </th><th>payload example </th><th>description  </th></tr>
+<tr>
+<td align="right"><b>ts</b> </td><td>YYYY-MM-DDThh:mm:ss.fffZ </td><td>time stamp according to ISO8601: year:YYYY, month:MM, day:DD, hour:hh, minute:mm, second:ss, fraction:fff </td></tr>
+</table>
+<h1>MQTT Remote (fischertechnik Cloud)</h1>
 <h2>fischertechnik Cloud / Dashboard</h2>
 <table class="doxtable">
 <tr>
-<th align="right">Component </th><th>topic SUBSCRIBE  </th></tr>
+<th align="right">Component SUBSCRIBE </th><th>topic </th><th>payload </th><th>description  </th></tr>
 <tr>
-<td align="right">Environment Sensor </td><td><b>i/bme680</b> </td></tr>
+<td align="right">Environment Sensor </td><td><b>i/bme680</b> </td><td>see <em>TxtFactoryMain PUBLISH</em> </td><td></td></tr>
 <tr>
-<td align="right">Brightness Sensor </td><td><b>i/ldr</b> </td></tr>
+<td align="right">Brightness Sensor </td><td><b>i/ldr</b> </td><td>see <em>TxtFactoryMain PUBLISH</em> </td><td></td></tr>
 <tr>
-<td align="right">Camera Picture </td><td><b>i/cam</b> </td></tr>
+<td align="right">Camera Picture </td><td><b>i/cam</b> </td><td>see <em>TxtFactoryMain PUBLISH</em> </td><td></td></tr>
 <tr>
-<td align="right">Pos Pan-Tilt-Unit </td><td><b>i/ptu/pos</b> </td></tr>
+<td align="right">Pos Pan-Tilt-Unit </td><td><b>i/ptu/pos</b> </td><td>see <em>TxtFactoryMain PUBLISH</em> </td><td></td></tr>
 <tr>
-<td align="right">Alert Message </td><td><b>i/alert</b> </td></tr>
+<td align="right">Alert Message </td><td><b>i/alert</b> </td><td>see <em>TxtFactoryMain PUBLISH</em> </td><td></td></tr>
 <tr>
-<td align="right">Broadcast </td><td><b>i/broadcast</b> </td></tr>
+<td align="right">Broadcast </td><td><b>i/broadcast</b> </td><td>see <em>TxtFactoryMain PUBLISH</em> </td><td></td></tr>
 <tr>
-<td align="right">State HBW </td><td><b>f/i/state/hbw</b> </td></tr>
+<td align="right">State HBW </td><td><b>f/i/state/hbw</b> </td><td>see <em>TxtFactoryHBW PUBLISH</em> </td><td></td></tr>
 <tr>
-<td align="right">State VGR </td><td><b>f/i/state/vgr</b> </td></tr>
+<td align="right">State VGR </td><td><b>f/i/state/vgr</b> </td><td>see <em>TxtFactoryVGR PUBLISH</em> </td><td></td></tr>
 <tr>
-<td align="right">State MPO </td><td><b>f/i/state/mpo</b> </td></tr>
+<td align="right">State MPO </td><td><b>f/i/state/mpo</b> </td><td>see <em>TxtFactoryMPO PUBLISH</em> </td><td></td></tr>
 <tr>
-<td align="right">State SLD </td><td><b>f/i/state/sld</b> </td></tr>
+<td align="right">State SLD </td><td><b>f/i/state/sld</b> </td><td>see <em>TxtFactorySLD PUBLISH</em> </td><td></td></tr>
 <tr>
-<td align="right">State DSI (VGR) </td><td><b>f/i/state/dsi</b> </td></tr>
+<td align="right">State DSI (VGR) </td><td><b>f/i/state/dsi</b> </td><td>see <em>TxtFactoryDSI PUBLISH</em> </td><td></td></tr>
 <tr>
-<td align="right">State DSO (VGR) </td><td><b>f/i/state/dso</b> </td></tr>
+<td align="right">State DSO (VGR) </td><td><b>f/i/state/dso</b> </td><td>see <em>TxtFactoryDSO PUBLISH</em> </td><td></td></tr>
 <tr>
-<td align="right">Stock HBW </td><td><b>f/i/stock</b> </td></tr>
+<td align="right">Stock HBW </td><td><b>f/i/stock</b> </td><td>see <em>TxtFactoryHBW PUBLISH</em> </td><td></td></tr>
 <tr>
-<td align="right">State Order(VGR) </td><td><b>f/i/order</b> </td></tr>
+<td align="right">State Order(VGR) </td><td><b>f/i/order</b> </td><td>see <em>TxtFactoryVGR PUBLISH</em> </td><td></td></tr>
 <tr>
-<td align="right">State NFC Device (VGR) </td><td><b>f/i/nfc/ds</b> </td></tr>
+<td align="right">State NFC Device (VGR) </td><td><b>f/i/nfc/ds</b> </td><td>see <em>TxtFactoryVGR PUBLISH</em> </td><td></td></tr>
 </table>
 <table class="doxtable">
 <tr>
-<th align="right">Component </th><th>topic PUBLISH  </th></tr>
+<th align="right">Component PUBLISH </th><th>topic </th><th>payload </th><th>description  </th></tr>
 <tr>
-<td align="right">TXT Pairing Ack </td><td><b>c/link</b> </td></tr>
+<td align="right">TXT Pairing Ack </td><td><b>c/link</b> </td><td>internal usage </td><td></td></tr>
 <tr>
-<td align="right">Config Rate Environment Sensor </td><td><b>c/bme680</b> </td></tr>
+<td align="right">Config Rate Environment Sensor </td><td><b>c/bme680</b> </td><td></td><td></td></tr>
 <tr>
-<td align="right">Config Rate Brightness Sensor </td><td><b>c/ldr</b> </td></tr>
+<td align="right">Config Rate Brightness Sensor </td><td><b>c/ldr</b> </td><td></td><td></td></tr>
 <tr>
-<td align="right">Config Rate Camera Picture </td><td><b>c/cam</b> </td></tr>
+<td align="right">Config Rate Camera Picture </td><td><b>c/cam</b> </td><td></td><td></td></tr>
 <tr>
-<td align="right">Control Buttons Pan-Tilt-Unit </td><td><b>o/ptu</b> </td></tr>
+<td align="right">Control Buttons Pan-Tilt-Unit </td><td><b>o/ptu</b> </td><td></td><td></td></tr>
 <tr>
-<td align="right">Quit Button </td><td><b>f/o/state/ack</b> </td></tr>
+<td align="right">Quit Button </td><td><b>f/o/state/ack</b> </td><td></td><td></td></tr>
 <tr>
-<td align="right">Order Workpiece Buttons </td><td><b>f/o/order</b> </td></tr>
+<td align="right">Order Workpiece Buttons </td><td><b>f/o/order</b> </td><td></td><td></td></tr>
 <tr>
-<td align="right">Action Buttons NFC Module </td><td><b>f/o/nfc/ds</b> </td></tr>
+<td align="right">Action Buttons NFC Module </td><td><b>f/o/nfc/ds</b> </td><td></td><td></td></tr>
 </table>
 <h1>MQTT Programs</h1>
 <h2>TxtFactoryMain</h2>
+<p>| Component SUBSCRIBE | topic | payload | description | | ---------------------------&mdash;:|-----------------&mdash;|-------&mdash;|------------&mdash;| | TXT Pairing Ack | <b>c/link</b> | | Config Rate Environment Sensor | <b>c/bme680</b> | | Config Rate Brightness Sensor | <b>c/ldr</b> | | Config Rate Camera Picture | <b>c/cam</b> | | Control Buttons Pan-Tilt-Unit | <b>o/ptu</b> | | State HBW | <b>f/i/state/hbw</b> | | State VGR | <b>f/i/state/vgr</b> | | State MPO | <b>f/i/state/mpo</b> | | State SLD | <b>f/i/state/sld</b> | | State DSI (VGR) | <b>f/i/state/dsi</b> | | State DSO (VGR) | <b>f/i/state/dso</b> |</p>
 <table class="doxtable">
 <tr>
-<th align="right">Component </th><th>topic SUBSCRIBE  </th></tr>
+<th align="right">Component PUBLISH </th><th>topic </th><th>payload </th><th>description  </th></tr>
 <tr>
-<td align="right">TXT Pairing Ack </td><td><b>c/link</b> </td></tr>
+<td align="right">Environment Sensor </td><td><b>i/bme680</b> </td><td><code>{ "ts":"YYYY-MM-DDThh:mm:ss.fffZ", "t":25.1, "rt":25.01, "h":40.0, "rh":38.01, "p":1000.15, "iaq":200, "aq":3, "gr":161000 }</code> </td><td><b>t</b>/**rt**: temperature compensated / raw value [°C], <b>h</b>/ <b>rh</b>: relative humidity compensated / raw value [%], <b>p</b>: air pressure [hPa], <b>iaq</b>: index air quality 0-500 (0...50:<em>Good</em>, 51...100:<em>Moderate</em>, 101...150:<em>Unhealthy for Sensitive Groups</em>, 151...200:<em>Unhealthy</em>, 201...300:<em>Very Unhealthy</em>, 301...500:<em>Hazardous</em>), <b>aq</b>: air quality score 0-3 (0:IAQ invalid, 1:calibration necessary, 2:calibration done, 3:IAQ is calibrated), <b>gr</b>: gas resistance [Ohm] </td></tr>
 <tr>
-<td align="right">Config Rate Environment Sensor </td><td><b>c/bme680</b> </td></tr>
+<td align="right">Brightness Sensor </td><td><b>i/ldr</b> </td><td><code>{ "ts":"YYYY-MM-DDThh:mm:ss.fffZ", "br":100.0, "ldr":15000 }</code> </td><td><b>br</b>: brightness 0-100.0 [%], <b>ldr</b>: value resistance 0-15000 [Ohm] </td></tr>
 <tr>
-<td align="right">Config Rate Brightness Sensor </td><td><b>c/ldr</b> </td></tr>
+<td align="right">Camera Picture </td><td><b>i/cam</b> </td><td><code>{ "ts":"YYYY-MM-DDThh:mm:ss.fffZ", "data":"data:image/jpeg;base64,\&lt;...\&gt;" }</code> </td><td><b>data</b>: camera image as base64 string </td></tr>
 <tr>
-<td align="right">Config Rate Camera Picture </td><td><b>c/cam</b> </td></tr>
+<td align="right">Pos Pan-Tilt-Unit </td><td><b>i/ptu/pos</b> </td><td><code>{ "ts":"YYYY-MM-DDThh:mm:ss.fffZ", "pan":0.5, "tilt":-0.5}</code> </td><td><b>pan</b>: relative position pan: -1.000...0.000...1.000, <b>tilt</b>: relative position tilt: -1.000...0.000...1.000 </td></tr>
 <tr>
-<td align="right">Control Buttons Pan-Tilt-Unit </td><td><b>o/ptu</b> </td></tr>
+<td align="right">Alert Message </td><td><b>i/alert</b> </td><td><code>{ "ts":"YYYY-MM-DDThh:mm:ss.fffZ", "id":"bme680/t", "data":"data:image/jpeg;base64,\&lt;...\&gt;", "code":100 }</code> </td><td><b>id</b>: bme680/t=temperature, bme680/h=humidity, bme680/p=pressure, bme680/iaq=air quality, ldr=brightness/photo resistor, cam=camera, <b>data</b>: sensor value / camera image as string, <b>code</b>: 100=Alarm: Movement detected!, 200=Alarm: danger of frost! temperature &lt; 4.0 °C, 300=Alarm: Hohe Luftfeuchtigkeit! humidity &gt; 80% </td></tr>
 <tr>
-<td align="right">State HBW </td><td><b>f/i/state/hbw</b> </td></tr>
+<td align="right">Broadcast </td><td><b>i/broadcast</b> </td><td>internal usage </td><td></td></tr>
 <tr>
-<td align="right">State VGR </td><td><b>f/i/state/vgr</b> </td></tr>
-<tr>
-<td align="right">State MPO </td><td><b>f/i/state/mpo</b> </td></tr>
-<tr>
-<td align="right">State SLD </td><td><b>f/i/state/sld</b> </td></tr>
-<tr>
-<td align="right">State DSI (VGR) </td><td><b>f/i/state/dsi</b> </td></tr>
-<tr>
-<td align="right">State DSO (VGR) </td><td><b>f/i/state/dso</b> </td></tr>
-</table>
-<table class="doxtable">
-<tr>
-<th align="right">Components </th><th>topic PUBLISH  </th></tr>
-<tr>
-<td align="right">Environment Sensor </td><td><b>i/bme680</b> </td></tr>
-<tr>
-<td align="right">Brightness Sensor </td><td><b>i/ldr</b> </td></tr>
-<tr>
-<td align="right">Camera Picture </td><td><b>i/cam</b> </td></tr>
-<tr>
-<td align="right">Pos Pan-Tilt-Unit </td><td><b>i/ptu/pos</b> </td></tr>
-<tr>
-<td align="right">Alert Message </td><td><b>i/alert</b> </td></tr>
-<tr>
-<td align="right">Broadcast </td><td><b>i/broadcast</b> </td></tr>
-<tr>
-<td align="right">Joysticks </td><td><b>fl/ssc/joy</b> </td></tr>
+<td align="right">Joysticks </td><td><b>fl/ssc/joy</b> </td><td></td><td></td></tr>
 </table>
 <h2>TxtFactoryMPO</h2>
-<table class="doxtable">
-<tr>
-<th align="right">Components </th><th>topic SUBSCRIBE  </th></tr>
-<tr>
-<td align="right">Quit Button </td><td><b>f/o/state/ack</b> </td></tr>
-<tr>
-<td align="right">VGR Trigger </td><td><b>fl/vgr/do</b> </td></tr>
-<tr>
-<td align="right">Acknowledgment SLD </td><td><b>fl/sld/ack</b> </td></tr>
-</table>
-<table class="doxtable">
-<tr>
-<th align="right">Component </th><th>topic PUBLISH  </th></tr>
-<tr>
-<td align="right">State MPO </td><td><b>f/i/state/mpo</b> </td></tr>
-<tr>
-<td align="right">Acknowledgment MPO </td><td><b>fl/mpo/ack</b> </td></tr>
-</table>
+<p>| Component SUBSCRIBE | topic | payload | description | | ---------------------------&mdash;:|-----------------&mdash;|-------&mdash;|------------&mdash;| | Quit Button | <b>f/o/state/ack</b> | | VGR Trigger | <b>fl/vgr/do</b> | | Acknowledgment SLD | <b>fl/sld/ack</b> |</p>
+<p>| Component PUBLISH | topic | payload | description | | ---------------------------&mdash;:|-----------------&mdash;|-------&mdash;|------------&mdash;| | State MPO | <b>f/i/state/mpo</b> | | Acknowledgment MPO | <b>fl/mpo/ack</b> |</p>
 <h2>TxtFactoryHBW</h2>
-<table class="doxtable">
-<tr>
-<th align="right">Component </th><th>topic SUBSCRIBE  </th></tr>
-<tr>
-<td align="right">Quit Button </td><td><b>f/o/state/ack</b> </td></tr>
-<tr>
-<td align="right">Joysticks </td><td><b>fl/ssc/joy</b> </td></tr>
-<tr>
-<td align="right">VGR Trigger </td><td><b>fl/vgr/do</b> </td></tr>
-</table>
-<table class="doxtable">
-<tr>
-<th align="right">Component </th><th>topic PUBLISH  </th></tr>
-<tr>
-<td align="right">State HBW </td><td><b>f/i/state/hbw</b> </td></tr>
-<tr>
-<td align="right">Acknowledgment HBW </td><td><b>fl/hbw/ack</b> </td></tr>
-</table>
+<p>| Component SUBSCRIBE | topic | payload | description | | ---------------------------&mdash;:|-----------------&mdash;|-------&mdash;|------------&mdash;| | Quit Button | <b>f/o/state/ack</b> | | Joysticks | <b>fl/ssc/joy</b> | | VGR Trigger | <b>fl/vgr/do</b> |</p>
+<p>| Component PUBLISH | topic | payload | description | | ---------------------------&mdash;:|-----------------&mdash;|-------&mdash;|------------&mdash;| | State HBW | <b>f/i/state/hbw</b> | | Stock HBW | <b>f/i/stock</b> | | Acknowledgment HBW | <b>fl/hbw/ack</b> |</p>
 <h2>TxtFactoryVGR</h2>
-<table class="doxtable">
-<tr>
-<th align="right">Component </th><th>topic SUBSCRIBE  </th></tr>
-<tr>
-<td align="right">Quit Button </td><td><b>f/o/state/ack</b> </td></tr>
-<tr>
-<td align="right">Order Workpiece Buttons </td><td><b>f/o/order</b> </td></tr>
-<tr>
-<td align="right">Action Buttons NFC Module </td><td><b>f/o/nfc/ds</b> </td></tr>
-<tr>
-<td align="right">Joysticks </td><td><b>fl/ssc/joy</b> </td></tr>
-<tr>
-<td align="right">Acknowledgment MPO </td><td><b>fl/mpo/ack</b> </td></tr>
-<tr>
-<td align="right">Acknowledgment HBW </td><td><b>fl/hbw/ack</b> </td></tr>
-<tr>
-<td align="right">Acknowledgment SLD </td><td><b>fl/sld/ack</b> </td></tr>
-</table>
-<table class="doxtable">
-<tr>
-<th align="right">Component </th><th>topic PUBLISH  </th></tr>
-<tr>
-<td align="right">State VGR </td><td><b>f/i/state/vgr</b> </td></tr>
-<tr>
-<td align="right">State DSI (VGR) </td><td><b>f/i/state/dsi</b> </td></tr>
-<tr>
-<td align="right">State DSO (VGR) </td><td><b>f/i/state/dso</b> </td></tr>
-<tr>
-<td align="right">VGR Trigger </td><td><b>fl/vgr/do</b> </td></tr>
-</table>
+<p>| Component SUBSCRIBE | topic | payload | description | | ---------------------------&mdash;:|-----------------&mdash;|-------&mdash;|------------&mdash;| | Quit Button | <b>f/o/state/ack</b> | | Order Workpiece Buttons | <b>f/o/order</b> | | Action Buttons NFC Module | <b>f/o/nfc/ds</b> | | Joysticks | <b>fl/ssc/joy</b> | | Acknowledgment MPO | <b>fl/mpo/ack</b> | | Acknowledgment HBW | <b>fl/hbw/ack</b> | | Acknowledgment SLD | <b>fl/sld/ack</b> |</p>
+<p>| Component PUBLISH | topic | payload | description | | ---------------------------&mdash;:|-----------------&mdash;|-------&mdash;|------------&mdash;| | State VGR | <b>f/i/state/vgr</b> | | State DSI (VGR) | <b>f/i/state/dsi</b> | | State DSO (VGR) | <b>f/i/state/dso</b> | | VGR Trigger | <b>fl/vgr/do</b> |</p>
 <h2>TxtFactorySLD</h2>
-<table class="doxtable">
-<tr>
-<th align="right">Component </th><th>topic SUBSCRIBE  </th></tr>
-<tr>
-<td align="right">Quit Button </td><td><b>f/o/state/ack</b> </td></tr>
-<tr>
-<td align="right">Acknowledgment MPO </td><td><b>fl/mpo/ack</b> </td></tr>
-</table>
-<table class="doxtable">
-<tr>
-<th align="right">Component </th><th>topic PUBLISH  </th></tr>
-<tr>
-<td align="right">State SLD </td><td><b>f/i/state/sld</b> </td></tr>
-<tr>
-<td align="right">Acknowledgment SLD </td><td><b>fl/sld/ack</b> </td></tr>
-</table>
+<p>| Component SUBSCRIBE | topic | payload | description | | ---------------------------&mdash;:|-----------------&mdash;|-------&mdash;|------------&mdash;| | Quit Button | <b>f/o/state/ack</b> | | Acknowledgment MPO | <b>fl/mpo/ack</b> |</p>
+<p>| Component PUBLISH | topic | payload | description | | ---------------------------&mdash;:|-----------------&mdash;|-------&mdash;|------------&mdash;| | State SLD | <b>f/i/state/sld</b> | | Acknowledgment SLD | <b>fl/sld/ack</b> | </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

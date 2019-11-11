@@ -1,11 +1,13 @@
 <map id="TxtMultiProcessingStation.h" name="TxtMultiProcessingStation.h">
-<area shape="rect" id="node2" href="$_txt_simulation_model_8h.html" title="TxtSimulationModel.h" alt="" coords="905,80,1053,107"/>
-<area shape="rect" id="node18" href="$_txt_vacuum_gripper_8h.html" title="TxtVacuumGripper.h" alt="" coords="1123,80,1265,107"/>
-<area shape="rect" id="node19" href="$_txt_axis_n_switch_8h.html" title="TxtAxisNSwitch.h" alt="" coords="157,80,285,107"/>
-<area shape="rect" id="node20" href="$_txt_conveyor_belt_8h.html" title="TxtConveyorBelt.h" alt="" coords="650,80,781,107"/>
-<area shape="rect" id="node21" href="$_txt_mqtt_factory_client_8h.html" title="TxtMqttFactoryClient.h" alt="" coords="1641,80,1797,107"/>
-<area shape="rect" id="node8" href="$_txt_axis_8h.html" title="TxtAxis.h" alt="" coords="715,155,793,181"/>
-<area shape="rect" id="node11" href="$_observer_8h.html" title="Observer.h" alt="" coords="1044,237,1131,263"/>
-<area shape="rect" id="node24" href="$_utils_8h.html" title="Utils.h" alt="" coords="1629,155,1689,181"/>
-<area shape="rect" id="node28" href="$_txt_factory_types_8h.html" title="TxtFactoryTypes.h" alt="" coords="1713,155,1845,181"/>
+<area shape="rect" id="node2" href="$_txt_simulation_model_8h.html" title="TxtSimulationModel.h" alt="" coords="881,80,1029,107"/>
+<area shape="rect" id="node19" href="$_txt_calib_data_8h.html" title="TxtCalibData.h" alt="" coords="2172,229,2282,256"/>
+<area shape="rect" id="node21" href="$_txt_vacuum_gripper_8h.html" title="TxtVacuumGripper.h" alt="" coords="1188,155,1330,181"/>
+<area shape="rect" id="node22" href="$_txt_axis_n_switch_8h.html" title="TxtAxisNSwitch.h" alt="" coords="78,155,206,181"/>
+<area shape="rect" id="node23" href="$_txt_conveyor_belt_8h.html" title="TxtConveyorBelt.h" alt="" coords="560,155,691,181"/>
+<area shape="rect" id="node24" href="$_txt_mqtt_factory_client_8h.html" title="TxtMqttFactoryClient.h" alt="" coords="1705,155,1861,181"/>
+<area shape="rect" id="node8" href="$_txt_axis_8h.html" title="TxtAxis.h" alt="" coords="686,229,765,256"/>
+<area shape="rect" id="node11" href="$_observer_8h.html" title="Observer.h" alt="" coords="1209,311,1296,338"/>
+<area shape="rect" id="node18" href="$_txt_sound_8h.html" title="TxtSound.h" alt="" coords="828,155,917,181"/>
+<area shape="rect" id="node27" href="$_utils_8h.html" title="Utils.h" alt="" coords="1702,229,1762,256"/>
+<area shape="rect" id="node31" href="$_txt_factory_types_8h.html" title="TxtFactoryTypes.h" alt="" coords="1905,229,2037,256"/>
 </map>

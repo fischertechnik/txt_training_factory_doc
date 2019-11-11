@@ -24,6 +24,7 @@ var classft_1_1_txt_mqtt_factory_client =
     [ "publishStateSLD", "classft_1_1_txt_mqtt_factory_client.html#ab53fbf613676b49e98352a6b226ab3d0", null ],
     [ "publishStateStation", "classft_1_1_txt_mqtt_factory_client.html#ad3915dae96da31b0b5abd1446cc899cf", null ],
     [ "publishStateVGR", "classft_1_1_txt_mqtt_factory_client.html#a856c542e74f14e6a12cca62dd3566401", null ],
+    [ "publishStationBroadcast", "classft_1_1_txt_mqtt_factory_client.html#aa4486dd89f11d8ae17ab03de813fad60", null ],
     [ "publishStock", "classft_1_1_txt_mqtt_factory_client.html#aa379fdca720ae6e258fdab746f22b5f2", null ],
     [ "publishVGR_Do", "classft_1_1_txt_mqtt_factory_client.html#a337e7510ee005d530e78719c167a3f6a", null ],
     [ "set_callback", "classft_1_1_txt_mqtt_factory_client.html#af31825b5b21a4bab5742eb59407305e7", null ],

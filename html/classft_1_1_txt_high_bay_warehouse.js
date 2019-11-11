@@ -11,8 +11,8 @@ var classft_1_1_txt_high_bay_warehouse =
       [ "FETCH_WP_WAIT", "classft_1_1_txt_high_bay_warehouse.html#aa35f35b5549913d838cb6070bb28da30a5caa2fd64471651c7b8a018ddf3ef10c", null ],
       [ "STORE_CONTAINER", "classft_1_1_txt_high_bay_warehouse.html#aa35f35b5549913d838cb6070bb28da30afc77ffa8e83b3e9940698351bcf73d3d", null ],
       [ "CALIB_HBW", "classft_1_1_txt_high_bay_warehouse.html#aa35f35b5549913d838cb6070bb28da30aae851127a9375cbbc073376e50a38d5a", null ],
-      [ "CALIB_NAV", "classft_1_1_txt_high_bay_warehouse.html#aa35f35b5549913d838cb6070bb28da30a897ff36a4bf1229592cd94de50be2aed", null ],
-      [ "CALIB_MOVE", "classft_1_1_txt_high_bay_warehouse.html#aa35f35b5549913d838cb6070bb28da30ab3a82d97b39900e4b6f88ba98d84bd84", null ]
+      [ "CALIB_HBW_NAV", "classft_1_1_txt_high_bay_warehouse.html#aa35f35b5549913d838cb6070bb28da30ae27830c2e361bf12edb5a971e2573949", null ],
+      [ "CALIB_HBW_MOVE", "classft_1_1_txt_high_bay_warehouse.html#aa35f35b5549913d838cb6070bb28da30a5ab2d95a938478334f7bd8d6e0540bf5", null ]
     ] ],
     [ "TxtHighBayWarehouse", "classft_1_1_txt_high_bay_warehouse.html#a34f3a3559ae048ca2f5985f3fbfc9057", null ],
     [ "~TxtHighBayWarehouse", "classft_1_1_txt_high_bay_warehouse.html#a6a91915425a003402ad626d45b84a6e8", null ],

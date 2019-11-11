@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">TxtSmartFactoryLib
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">Smart Factory Library</div>
   </td>
@@ -176,6 +176,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a10294cf5b852e5d6e24d7456853a3266"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fdd6b38c083c41c2da9f748a35b24c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classft_1_1_txt_mqtt_factory_client.html#a2fdd6b38c083c41c2da9f748a35b24c9">publishNfcDS</a> (<a class="el" href="classft_1_1_txt_workpiece.html">TxtWorkpiece</a> wp, <a class="el" href="namespaceft.html#aa7740d5a5a633c96d2063e7fd135cf89">History_map_t</a> map_hist, long timeout)</td></tr>
 <tr class="separator:a2fdd6b38c083c41c2da9f748a35b24c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4486dd89f11d8ae17ab03de813fad60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classft_1_1_txt_mqtt_factory_client.html#aa4486dd89f11d8ae17ab03de813fad60">publishStationBroadcast</a> (const std::string station, double timestamp_s, const std::string sw, const std::string ver, const std::string message, long timeout)</td></tr>
+<tr class="separator:aa4486dd89f11d8ae17ab03de813fad60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1cdb5649368d07e48b05892ea54b812c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classft_1_1_txt_mqtt_factory_client.html#a1cdb5649368d07e48b05892ea54b812c">publishSSC_Joy</a> (<a class="el" href="classft_1_1_txt_joysticks_data.html">TxtJoysticksData</a> jd, long timeout)</td></tr>
 <tr class="separator:a1cdb5649368d07e48b05892ea54b812c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae063650cf96166e8e7f468dc94af57c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classft_1_1_txt_mqtt_factory_client.html#aae063650cf96166e8e7f468dc94af57c">publishMPO_Ack</a> (<a class="el" href="namespaceft.html#a368e4d4d861f00b9f4faa23c052bdb46">TxtMpoAckCode_t</a> code, long timeout)</td></tr>
@@ -1157,6 +1159,56 @@ Protected Attributes</h2></td></tr>
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa4486dd89f11d8ae17ab03de813fad60"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ft::TxtMqttFactoryClient::publishStationBroadcast </td>
+          <td>(</td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>station</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>timestamp_s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>sw</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>ver</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>

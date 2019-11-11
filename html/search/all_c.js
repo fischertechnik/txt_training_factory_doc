@@ -21,7 +21,7 @@ var searchData=
   ['moveabsthread',['moveAbsThread',['../classft_1_1_txt_axis1_ref_switch.html#adc7d6c3617146b67a65cda4d62f24278',1,'ft::TxtAxis1RefSwitch']]],
   ['movecalibpos',['moveCalibPos',['../classft_1_1_txt_high_bay_warehouse.html#a847d32417a90000d33dbec74430f7d0c',1,'ft::TxtHighBayWarehouse::moveCalibPos()'],['../classft_1_1_txt_vacuum_gripper_robot.html#af13df23d8bb1e20214dc2bc6bc96249d',1,'ft::TxtVacuumGripperRobot::moveCalibPos()']]],
   ['movecenter',['moveCenter',['../classft_1_1_txt_pan_tilt_unit.html#ab50b506049d75fdf9cf1eea63bbba5b8',1,'ft::TxtPanTiltUnit']]],
-  ['movecolorsensor',['moveColorSensor',['../classft_1_1_txt_vacuum_gripper_robot.html#ae3b7369fd88461e9e4003386664f3d43',1,'ft::TxtVacuumGripperRobot']]],
+  ['movecolorsensor',['moveColorSensor',['../classft_1_1_txt_vacuum_gripper_robot.html#aa95766e358bdc911763d752311f81593',1,'ft::TxtVacuumGripperRobot']]],
   ['moveconv',['moveConv',['../classft_1_1_txt_high_bay_warehouse.html#af3ab1d4ab7978eb08d0015d44ea288ad',1,'ft::TxtHighBayWarehouse']]],
   ['movecr',['moveCR',['../classft_1_1_txt_high_bay_warehouse.html#a86d585f3562c7a23c30c59d0cb483b8e',1,'ft::TxtHighBayWarehouse']]],
   ['movedeliveryinandgrip',['moveDeliveryInAndGrip',['../classft_1_1_txt_vacuum_gripper_robot.html#af8f27ff7ab32d50fe58ab1476392ab35',1,'ft::TxtVacuumGripperRobot']]],

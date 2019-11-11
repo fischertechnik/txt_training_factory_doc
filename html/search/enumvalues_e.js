@@ -3,6 +3,7 @@ var searchData=
   ['shipped',['SHIPPED',['../namespaceft.html#a0b621af47c2875bbecb5f4a3d4218a5caf998b8ca10961018438b908be3d69bb4',1,'ft']]],
   ['shipping',['SHIPPING',['../namespaceft.html#a159b26268d167d1a15cca7e324a25abfaff9598f7ea053930e489fe9e458b32b8',1,'ft']]],
   ['shipping_5findex',['SHIPPING_INDEX',['../namespaceft.html#a87eb4112317a6f3c7ade8f26b6f8c1c8a1d673ed674a60861d8186b610f759ab2',1,'ft']]],
+  ['sld_5fcalib_5fend',['SLD_CALIB_END',['../namespaceft.html#aee05f9d6ddbc6bb6add8c06f3e4067a0a209f1d108319cbf6d6568fbcfcb00aba',1,'ft']]],
   ['sld_5fexit',['SLD_EXIT',['../namespaceft.html#aee05f9d6ddbc6bb6add8c06f3e4067a0a6f7087e75653616f98e145750b7d248e',1,'ft']]],
   ['sld_5fsorted',['SLD_SORTED',['../namespaceft.html#aee05f9d6ddbc6bb6add8c06f3e4067a0a37647049c5447cfc746ae8442b7a744d',1,'ft']]],
   ['sld_5fstarted',['SLD_STARTED',['../namespaceft.html#aee05f9d6ddbc6bb6add8c06f3e4067a0aaa18973eef725209bf87ec037e7f4ab4',1,'ft']]],

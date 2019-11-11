@@ -17,5 +17,6 @@ var classft_1_1_txt_simulation_model =
     [ "m_thread", "classft_1_1_txt_simulation_model.html#a18f478132d776bc303be7598a3fe32ba", null ],
     [ "mqttclient", "classft_1_1_txt_simulation_model.html#a6a92fdef8619b9b1636c7c464091ea3a", null ],
     [ "pT", "classft_1_1_txt_simulation_model.html#ad13b6df3610fc5b37d55d1c1630f0566", null ],
+    [ "sound", "classft_1_1_txt_simulation_model.html#aca0ac28039fb06f744b61114a44aaf72", null ],
     [ "status", "classft_1_1_txt_simulation_model.html#a4c0085e8e3c63672a1cf4230d753c7b6", null ]
 ];

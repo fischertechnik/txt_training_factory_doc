@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['info1',['info1',['../classft_1_1_txt_sound.html#a578cccd066b902d00390f16ed7ba9aad',1,'ft::TxtSound']]],
+  ['info2',['info2',['../classft_1_1_txt_sound.html#a24d3708380bade605ba9f62b9075803f',1,'ft::TxtSound']]],
   ['init',['init',['../classft_1_1_txt_b_m_e680.html#ae06fb1fcb0180fb433fe7e79a6bf75b9',1,'ft::TxtBME680::init()'],['../classft_1_1_txt_camera.html#aba6fd06b03361b015a2ff6b59e7a9f72',1,'ft::TxtCamera::init()'],['../classft_1_1_txt_motion_detection.html#ac1fa56ffd0e8ff3d6b55c128b4c2f7a7',1,'ft::TxtMotionDetection::init()'],['../classft_1_1_txt_pan_tilt_unit.html#abc56d932cec09c497a6a803d21f296de',1,'ft::TxtPanTiltUnit::init()']]],
   ['initdashboard',['initDashboard',['../classft_1_1_txt_vacuum_gripper_robot.html#a93f50d64a497b33fe3d6d20705938fd5',1,'ft::TxtVacuumGripperRobot']]],
   ['is_5fconnected',['is_connected',['../classft_1_1_txt_mqtt_factory_client.html#ac63f2c42da427fb8d2607f861981fcc1',1,'ft::TxtMqttFactoryClient']]],

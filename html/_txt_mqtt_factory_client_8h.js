@@ -24,6 +24,7 @@ var _txt_mqtt_factory_client_8h =
     [ "TOPIC_INPUT_STATE_SLD", "_txt_mqtt_factory_client_8h.html#a21141d75bdb4ea47c6abace5b281d58d", null ],
     [ "TOPIC_INPUT_STATE_VGR", "_txt_mqtt_factory_client_8h.html#a5c3d0a1c57f7b77bff17bee8aa9fd707", null ],
     [ "TOPIC_INPUT_STOCK", "_txt_mqtt_factory_client_8h.html#af54e6bdce253ec6ef718c66a34e6b957", null ],
+    [ "TOPIC_LOCAL_BROADCAST", "_txt_mqtt_factory_client_8h.html#a6efa654b56f3c56565a986bcc70a8f88", null ],
     [ "TOPIC_LOCAL_HBW_ACK", "_txt_mqtt_factory_client_8h.html#ac3e6fe85c6ea46ffb8ab1cda58e03a94", null ],
     [ "TOPIC_LOCAL_MPO_ACK", "_txt_mqtt_factory_client_8h.html#aa75c33ab6457dc4144755c9d7b54f86f", null ],
     [ "TOPIC_LOCAL_SLD_ACK", "_txt_mqtt_factory_client_8h.html#a3c3c54e6439e73cbec0565ca798d2bfc", null ],
@@ -48,7 +49,8 @@ var _txt_mqtt_factory_client_8h =
     [ "TxtSldAckCode_t", "_txt_mqtt_factory_client_8h.html#aee05f9d6ddbc6bb6add8c06f3e4067a0", [
       [ "SLD_EXIT", "_txt_mqtt_factory_client_8h.html#aee05f9d6ddbc6bb6add8c06f3e4067a0a6f7087e75653616f98e145750b7d248e", null ],
       [ "SLD_STARTED", "_txt_mqtt_factory_client_8h.html#aee05f9d6ddbc6bb6add8c06f3e4067a0aaa18973eef725209bf87ec037e7f4ab4", null ],
-      [ "SLD_SORTED", "_txt_mqtt_factory_client_8h.html#aee05f9d6ddbc6bb6add8c06f3e4067a0a37647049c5447cfc746ae8442b7a744d", null ]
+      [ "SLD_SORTED", "_txt_mqtt_factory_client_8h.html#aee05f9d6ddbc6bb6add8c06f3e4067a0a37647049c5447cfc746ae8442b7a744d", null ],
+      [ "SLD_CALIB_END", "_txt_mqtt_factory_client_8h.html#aee05f9d6ddbc6bb6add8c06f3e4067a0a209f1d108319cbf6d6568fbcfcb00aba", null ]
     ] ],
     [ "TxtVgrDoCode_t", "_txt_mqtt_factory_client_8h.html#a91a43ab1445a680e5e113eec631eb030", [
       [ "VGR_EXIT", "_txt_mqtt_factory_client_8h.html#a91a43ab1445a680e5e113eec631eb030a0b82b0f994d3088fd2218720a86bef6e", null ],
@@ -59,7 +61,8 @@ var _txt_mqtt_factory_client_8h =
       [ "VGR_HBW_RESETSTORAGE", "_txt_mqtt_factory_client_8h.html#a91a43ab1445a680e5e113eec631eb030affce488c63ce526d82b51896cba23f38", null ],
       [ "VGR_HBW_CALIB", "_txt_mqtt_factory_client_8h.html#a91a43ab1445a680e5e113eec631eb030aafafa2be7003a43ebed177804bd9fc6d", null ],
       [ "VGR_MPO_PRODUCE", "_txt_mqtt_factory_client_8h.html#a91a43ab1445a680e5e113eec631eb030afcc52e05c0468a2fba747b5e680035e5", null ],
-      [ "VGR_SLD_START", "_txt_mqtt_factory_client_8h.html#a91a43ab1445a680e5e113eec631eb030ad4fa0078d40d269a40e41ddb8df7cc4f", null ]
+      [ "VGR_SLD_START", "_txt_mqtt_factory_client_8h.html#a91a43ab1445a680e5e113eec631eb030ad4fa0078d40d269a40e41ddb8df7cc4f", null ],
+      [ "VGR_SLD_CALIB", "_txt_mqtt_factory_client_8h.html#a91a43ab1445a680e5e113eec631eb030ac8976040ea89f6bb979f03fea71f88a0", null ]
     ] ],
     [ "fromString", "_txt_mqtt_factory_client_8h.html#af0ca4397d0d889677dabfa552bc9c18d", null ],
     [ "toString", "_txt_mqtt_factory_client_8h.html#a90503872144928016292aaa273e07678", null ]

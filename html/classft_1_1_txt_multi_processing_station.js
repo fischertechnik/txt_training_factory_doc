@@ -38,6 +38,7 @@ var classft_1_1_txt_multi_processing_station =
     [ "axisGripper", "classft_1_1_txt_multi_processing_station.html#a9f07645564cd0c0f2f2e4da564449f30", null ],
     [ "axisOvenInOut", "classft_1_1_txt_multi_processing_station.html#abde0d6fa6604a7290e82aee4aca0b227", null ],
     [ "axisRotTable", "classft_1_1_txt_multi_processing_station.html#a643ec7e87cf216f08491c3b1c2d8887f", null ],
+    [ "calibData", "classft_1_1_txt_multi_processing_station.html#a094e84d6ce5cb5dc5cb6c119456caab2", null ],
     [ "chMsaw", "classft_1_1_txt_multi_processing_station.html#a1ca89d3f0f764e7576648484e5bd9d84", null ],
     [ "convBelt", "classft_1_1_txt_multi_processing_station.html#a4011960c442f32527a3880a77a2bf1c1", null ],
     [ "currentState", "classft_1_1_txt_multi_processing_station.html#aa6e7cf831e80c11a258aa778667384d0", null ],
